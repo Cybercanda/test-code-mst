@@ -1,9 +1,16 @@
 package main
 
-import "test-code-mst/routers"
+import (
+	"fmt"
+	"test-code-mst/routers"
+)
 
 func main() {
-	var PORT = ":8080"
+	router, err := routers.Init()
+	if err != nil {
+		fmt.Printf("Error initializing application: %s \n", err)
+		return
+	}
 
-	routers.StartServer().Run(PORT)
+	router.Run(":8080")
 }

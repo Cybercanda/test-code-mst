@@ -1,0 +1,5 @@
+{
+  "Database": {
+    "ConnectingString": "postgres://postgres:databaseaja@localhost:5432/dbmst"
+  }
+}
