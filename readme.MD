@@ -20,18 +20,21 @@ http://localhost:8080
 http://localhost:8080/api/players
 ```
 Response:
+![getall.png](image%2Fgetall.png)
 
 #### Filter Players (Get)
 ```http
 http://localhost:8080/api/players?BirthPlace=Europe
 ```
 Response:
+![filter.png](image%2Ffilter.png)
 
 #### Get Players by ID (Get)
 ```http
-http://localhost:8080/api/players/4
+http://localhost:8080/api/players/3
 ```
 Response:
+![getbyid.png](image%2Fgetbyid.png)
 
 #### Create Players (Post)
 ```http
@@ -46,9 +49,11 @@ file json
 }
 ```
 Response:
+![createPlayers.png](image%2FcreatePlayers.png)
 
 #### Api Settings
 ```http
 http://localhost:8080/api/settings
 ```
 Response:
+![settings.png](image%2Fsettings.png)
